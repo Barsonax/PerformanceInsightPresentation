@@ -19,8 +19,8 @@ enableTitleFooter: false
 ## In deze presentatie
 
 - Meten is weten
-- Profiler
 - BenchmarkDotNet
+- Profiler
 - Vragen
 
 ---
@@ -38,7 +38,7 @@ enableTitleFooter: false
 - Debug mode
 - Debugger
 
---
+---
 
 ## Stopwatch
 
@@ -61,5 +61,25 @@ Console.WriteLine("RunTime " + elapsedTime);
 ```
 
 ---
+
+## BenchmarkDotNet
+
+- https://benchmarkdotnet.org/
+- Graphs
+
+--
+
+## R
+
+
+
+---
+
+## Profilers
+
+- Visual Studio Performance Profiling
+- Jetbrains DotTrace
+
+![](./DotTrace.png)
 
 ## Vragen
