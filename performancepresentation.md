@@ -33,7 +33,7 @@ enableTitleFooter: false
 
 --
 
-## De don'ts
+## De dont's
 
 - Debug mode
 - Debugger
@@ -52,7 +52,7 @@ stopWatch.Start();
 Thread.Sleep(10000);
 stopWatch.Stop();
 // Get the elapsed time as a TimeSpan value.
-TimeSpan ts = stopWatch.Elapse
+TimeSpan ts = stopWatch.Elapsed
 // Format and display the TimeSpan value.
 string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
     ts.Hours, ts.Minutes, ts.Seconds,
@@ -60,18 +60,37 @@ string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
 Console.WriteLine("RunTime " + elapsedTime);
 ```
 
+--
+
+## Code
+
 ---
 
 ## BenchmarkDotNet
 
-- https://benchmarkdotnet.org/
-- Graphs
+- <https://benchmarkdotnet.org/>
+- Helpt bij het maken van betrouwbare benchmarks
+- Grafieken
 
 --
 
-## R
+## Code
 
+--
 
+## Resultaten
+
+<a>
+    <img style="border: unset; box-shadow: unset" data-src="./BenchmarkConsole.png" height="500">
+</a>
+
+--
+
+## Grafiek
+
+<a>
+    <img style="border: unset; box-shadow: unset" data-src="./BenchmarkGrafiek.png" height="500">
+</a>
 
 ---
 
@@ -80,6 +99,16 @@ Console.WriteLine("RunTime " + elapsedTime);
 - Visual Studio Performance Profiling
 - Jetbrains DotTrace
 
-![](./DotTrace.png)
+![dotTrace](./DotTrace.png)
+
+--
+
+## DotTrace
+
+--
+
+## Voorbeeld
+
+---
 
 ## Vragen
