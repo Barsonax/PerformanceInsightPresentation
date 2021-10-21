@@ -3,7 +3,7 @@ theme : "white"
 transition: "slide"
 highlightTheme: "vs2015"
 slideNumber: true
-logoImg: "https://github.com/Barsonax/nukepresentation/raw/master/images/nukeIcon.png"
+logoImg: "./stopwatch.png"
 title: "Performance insight presentation"
 enableTitleFooter: false
 ---
@@ -11,7 +11,7 @@ enableTitleFooter: false
 ## Performance Insight
 
 <a>
-    <img style="border: unset; box-shadow: unset" data-src="https://github.com/Barsonax/nukepresentation/raw/master/images/nukeIcon.png">
+    <img style="border: unset; box-shadow: unset" data-src="./stopwatch.png" height="500">
 </a>
 
 ---
