@@ -20,7 +20,7 @@ enableTitleFooter: false
 
 - Meten is weten
 - BenchmarkDotNet
-- Profiler
+- Profilers
 - Vragen
 
 ---
@@ -28,7 +28,7 @@ enableTitleFooter: false
 ## Meten is weten
 
 - Gericht oplossen van problemen
-- Performance is ook een feature
+- Performance is eigenlijk ook een feature
 - Niet altijd duidelijk vanuit de code
 
 --
@@ -43,7 +43,6 @@ enableTitleFooter: false
 ## Stopwatch
 
 - Simpel
-- Vergt code aanpassingen
 - Handig voor logging
 
 ```cs
@@ -62,7 +61,10 @@ Console.WriteLine("RunTime " + elapsedTime);
 
 --
 
-## Code
+## Stopwatch
+
+- Geeft niet veel informatie
+- Vergt code aanpassingen
 
 ---
 
@@ -70,7 +72,16 @@ Console.WriteLine("RunTime " + elapsedTime);
 
 - <https://benchmarkdotnet.org/>
 - Helpt bij het maken van betrouwbare benchmarks
+- Statistische analyse
+- Nanoseconde precisie
 - Grafieken
+
+--
+
+## BenchmarkDotNet
+
+- Meer werk
+- Niet toepasbaar in productie, zie het meer als een test
 
 --
 
@@ -96,14 +107,30 @@ Console.WriteLine("RunTime " + elapsedTime);
 
 ## Profilers
 
-- Visual Studio Performance Profiling
-- Jetbrains DotTrace
+- Geven inzicht in zaken als CPU verbruik, geheugen verbruik en meer.
+- In vele soorten en maten
+
+--
+
+## DotTrace
+
+- CPU profiler
+- <https://www.jetbrains.com/profiler/>
 
 ![dotTrace](./DotTrace.png)
 
 --
 
-## DotTrace
+## Voorbeeld
+
+--
+
+## DotMemory
+
+- Memory profiler
+- <https://www.jetbrains.com/dotmemory/>
+
+![dotMemory](./DotMemory.png)
 
 --
 
