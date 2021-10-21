@@ -75,6 +75,7 @@ Console.WriteLine("RunTime " + elapsedTime);
 - Statistische analyse
 - Nanoseconde precisie
 - Grafieken
+- Nuget package, MIT license
 
 --
 
